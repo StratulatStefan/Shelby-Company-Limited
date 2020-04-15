@@ -1,0 +1,27 @@
+In principiu, site-ul va contine pagini cu prezentarea serialului, prezentarea personajelor,
+prezentarea celor mai bune secvente din serial. 
+
+- Prima pagina : Login 
+		* se ingradeste accesul la website daca nu se indeplinesc conditiile de login.
+				Nu aveti cont ? Creati unul !
+		* posibilitate creare cont
+	- pt creare cont se procedeaza ca in laborator (se salveaza intr-un json utilizatorii si de acolo se extrag...)
+
+- A doua pagina : Acasa
+		* prezentarea principalelor sectiuni
+		* Sectiuni : - Descriere serial si poveste reala
+					 - Descriere personaje
+					 - Secvente
+					 - Shopping
+
+- Footer : Shelby Company Limited 2020 Proiect PW
+- Pagina shopping sa contina un mediabox principal din care sa se poata naviga stanga dreapta pe diferite produse;
+fiecare frame contine o poza cu produsul, denumire, descriere, pret, cantitate, buton adaugare cos
+- Finalizare comanda : te trimite pe noua pagina de unde ai un formular in care se completeaza automat nume prenume si email
+si userul completeaza singur adresa si alte detalii. la final, acest formular se salveaza intr-un fisier de tip XML de pe disk
+si utilizatorul primeste un email referitor la comanda
+
+- Pentru celelalte pagini avem functionalitati de baza, nu foarte complicate, dar nici foarte simple, vezi tu atunci cand te apuci
+- Se adauga un element de tip ceas care sa fie deschis pt fiecare pagina (va fi avand in vedere ca folosim SPA)
+
+- mai vezi pe parcurs
