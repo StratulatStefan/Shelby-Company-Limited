@@ -1,0 +1,143 @@
+h1{
+    font-size: 50px;
+}
+
+body{
+    background-image: url('/img/smoke_wall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigator{
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.navigator a{
+    color: whitesmoke;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.cart{
+    margin-top: 50px;
+    width: 1100px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+.cart input{
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    text-emphasis-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: whitesmoke;
+}
+
+.cart button{
+    font-size: 20px;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-top: 30px;
+}
+
+.cart img{
+    width: 250px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#viewcart, #finalizare_comanda{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#finalizare_comanda{
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+#pret_final{
+    visibility: hidden;
+}
+
+
+form{
+    margin-top: 30px;
+}
+
+.creare_field{
+    margin-bottom: 20px;
+}
+
+.creare_field input, select, textarea{
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+    font-size: large;
+    font-weight: bold;
+    font-family: fantasy;
+    border:  solid black;
+    text-align: center;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:white;
+    margin-right: 20px;
+}
+
+form #creare_button{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    font-family: fantasy;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: white;
+}
+
+legend{
+    font-size: 25px;
+    float:center;
+}
+
+fieldset{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    right: 50px;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+a{
+    font-size: 35px;
+}
+
+label{
+    font-size: 25px;
+}

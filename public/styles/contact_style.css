@@ -1,0 +1,116 @@
+body{
+    background-image: url('/img/michael.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 50px;
+}
+
+#contact{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+#contact_details{
+    grid-column: 1;
+    border-right: 5px solid black;
+    height: 500px;
+    margin-left: 30px;
+    margin-right: 60px;
+}
+
+#contact_text{
+    width: 300px;
+    padding: 10px;
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+#contact_form{
+    grid-column: 2;
+    border: 3px solid black;
+    border-radius: 10px;
+    float: left;
+    padding: 20px;
+    width: 600px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+label{
+    font-size: 30px;
+    float: left;
+}
+
+input, textarea{    
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    font-size: large;
+    font-weight: bold;
+    font-family: fantasy;
+    border:  solid black;
+    text-align: center;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:white;
+    float: left;
+    margin-left: 20px;
+}
+
+#form_field{
+    padding-bottom: 50px;
+}
+
+textarea{
+    width: 400px;
+    height: 230px;
+    text-align: left;
+}
+
+#submit{
+    margin-top: 30px;
+    float: center;
+}
+
+#contact_details a{
+    font-size: 30px;
+    color: white;
+    border-radius: 60px;
+    width: 43px;
+    padding: 5px;
+    border: 1px solid black;
+    text-decoration: none;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+
+.fa-facebook{
+    background: #3B5998;
+    margin-left: -30px;
+}
+
+.fa-instagram {
+    background: #125688;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+}
+
+.fa-youtube {
+    background: #bb0000;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+}
+
+.fa-imdb{
+    background: rgb(204, 204, 13);
+}

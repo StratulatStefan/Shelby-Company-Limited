@@ -1,0 +1,56 @@
+h1{
+    font-size: 50px;
+}
+
+body{
+    background-image: url('/img/smoke.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigator{
+    margin-top: -20px;
+    font-size: 22px;
+}
+
+.navigator a{
+    color: whitesmoke;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    text-decoration: none;
+}
+
+section{
+    margin-top: 50px;
+    margin-bottom: 100px; 
+    -webkit-text-stroke-width: 1.8px;
+    -webkit-text-stroke-color: black;
+}
+
+section h3{
+    margin-left: 50px;  
+}
+
+.statistics{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.statistics td,th{
+    padding: 10px;
+    border: 1px solid whitesmoke;
+}
+
+.statistics th{
+    background-color: rgb(1, 56, 56)
+}
+
+#description img{
+    margin-left: auto;
+    margin-right: auto;
+}

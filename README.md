@@ -1,4 +1,10 @@
-# PeakyBlindersWebsite
-This is a project developed for two main reasons : my big passion for the Peaky Blinders and for a university project.
+# tema-de-casa-StratulatStefan
+tema-de-casa-StratulatStefan created by GitHub Classroom
 
-The main technologies used are : HTML, CSS, JavaScript, Java (Web Server), HTTP Communication, AJAX, Web APIs.
+## Cerinte
+* [X] titlul și o scurtă descriere a temei alese (încărcate pe Moodle până în săptămâna a 9-a)
+* [X] HTML - minim 3 fișiere care să conțină cod HTML
+* [X] CSS - minim 30 de linii
+* [X] JavaScript - minim 30 linii de cod și trei funcții
+* [X] AJAX + transmiterea datelor în format JSON sau XML
+* [X] NodeJS - minim 30 linii de cod și cel puțin 3 fișiere care să conțină cod JavaScript (server-side)

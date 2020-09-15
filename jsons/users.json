@@ -1,0 +1,33 @@
+[{
+	"last_name": "Stefan",
+	"first_name": "Stratulat",
+	"gender": "M",
+	"age": "12",
+	"email": "stefanc.stratulat@gmail.com",
+	"password": "8246",
+	"address": "Str. Dimitrie Leonida",
+	"city": "Fălticeni",
+	"fav_season": "1",
+	"rate": "1",
+	"fav_fam_mem": "Thomas",
+	"fav_bad_character": "Kimber",
+	"real": "Y",
+	"seasons": "1",
+	"opinion": "111"
+}, {
+	"last_name": "Roxana",
+	"first_name": "Stratulat",
+	"gender": "F",
+	"age": "24",
+	"email": "iftimie.roxana@yahoo.com",
+	"password": "1234",
+	"address": "str. Vasile Ciurea, nr. 13",
+	"city": "Fălticeni",
+	"fav_season": "1",
+	"rate": "8",
+	"fav_fam_mem": "Thomas",
+	"fav_bad_character": "Mosley",
+	"real": "N",
+	"seasons": "4",
+	"opinion": "it is super ok"
+},{"last_name":"Constantin","first_name":"Stratulat","gender":"M","age":"22","email":"stefan_stratulat.3231@yahoo.com","password":"824613","address":"str. Vasile Ciurea, nr 13","city":"Fălticeni","fav_season":"4","rate":"9","fav_fam_mem":"Thomas","fav_bad_character":"Solomons","real":"Y","seasons":"5","opinion":"Thanks."},{"last_name":"Elena","first_name":"Iftimie","gender":"F","age":"23","email":"e.iftimie@yahoo.com","password":"1234","address":"str. Vasile Ciurea, nr. 13","city":"Fălticeni","fav_season":"5","rate":"9.5","fav_fam_mem":"Thomas","fav_bad_character":"Sabrini","real":"Y","seasons":"5","opinion":"Best"},{"last_name":"Maria","first_name":"Popescu","gender":"F","age":"19","email":"maria_popescu@yahoo.com","password":"mariaa","address":"Str. Dimitrie Leonida","city":"Fălticeni","fav_season":"3","rate":"10","fav_fam_mem":"Thomas","fav_bad_character":"Kimber","real":"Y","seasons":"5","opinion":"Multumesc"}]

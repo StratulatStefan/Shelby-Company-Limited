@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" text="text/css" href="/styles/login_style.css" />
+    </head>
+    <body>
+        <h1>LOGIN</h1>
+        <h3 id="status_message">
+        <% if(data.error_message != null) { %>
+            <%- data.error_message -%>
+        <% } else {%>
+            &nbsp;
+            <% } %>    
+        </h3>
+        <form action="/verificare_login" method="POST">
+            <div class="login_field">
+                <label>Email : </label>
+                <input type="email" name="email" />
+            </div>
+            <div class="login_field">
+                <label>Password : </label>
+                <input type="password" name="password" />
+            </div>
+            <input id="login_button" type="submit" value="Login" />
+        </form>
+        <a id="no_account" href="creare_cont">Nu ai cont ?  Creeaza acum unul!</a>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Peaky Blinders</title>
+        <link rel="icon" href="/img/peaky_icon.png" />
+        <link rel="stylesheet" text="text/css" href="/styles/layout_style.css" />
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>     
+    </head>
+    <body>
+        <nav class="menu_navigator">
+            <img src="/img/peaky_icon.png" />
+            <h5 id="current_user">
+                <% if(data.credentials != null) {%>
+                    Peaky Boy <br /> <%- data.credentials.last_name -%>&nbsp;<%- data.credentials.first_name -%>
+                    <br/> 
+                    <a id="disconnect" href="disconnect" method="GET">Disconnect</a>
+                <% } else{ %>
+                    <br /> <br /> <br/> <br/>
+                <% } %>
+            </h5>
+            <a href="/login">Login</a>
+            <a href="/">Home</a>
+            <a href="gallery">Gallery</a>
+            <a href="characters">Characters</a>
+            <a href="cumparaturi">Shopping</a>
+            <a href="creare_cont">Register</a>
+            <a href="contact_us">Contact Us</a>
+            <footer>Stratulat Stefan PW &nbsp;&copy;</footer>
+        </nav>
+        <div class="main_content">
+            <h1 id="title">PEAKY BLINDERS</h1>
+            <div id="content">
+                <%- body -%>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="stylesheet" text="text/css" href="/styles/contact_style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        <div id="contact">
+            <div id="contact_details">
+                <h2 id="contact_text">If you need help with something or have a general enquiry, please complete the form to reach out to us.
+                <br/><br/> You can also find us on the main social media networks. 
+                </h2>
+                <a href="https://www.facebook.com/PeakyBlinders/" target="_blank" class="fa fa-facebook" ></a>
+                <a href="https://www.instagram.com/peakyblindersofficial/?hl=ro" target="_blank" class="fa fa-instagram" ></a>
+                <a href="https://twitter.com/thepeakyblinder" target="_blank" class="fa fa-twitter" ></a>
+                <a href="https://www.youtube.com/user/BBC/search?query=peaky" target="_blank" class="fa fa-youtube" ></a>
+                <a href="https://ro.pinterest.com/heather18668/peaky-blinders/" target="_blank" class="fa fa-pinterest" ></a>
+                <a href="https://www.imdb.com/title/tt2442560/" target="_blank" class="fa fa-imdb" ></a><br/><br/>
+                <% if(data.status_contact != null) { %>
+                    <label id="status"><%- data.status_contact -%></label>
+                    <% } %>
+            </div>
+            <form id="contact_form" href="contact_form" method="POST">
+                <div id="form_field">
+                    <label>Name : </label>
+                    <input type="text" name="name" required="required"
+                    <% if(data.credentials != null) { %>
+                        value = <%- data.credentials.last_name -%>&nbsp;<%- data.credentials.first_name -%>
+                        <% } %>
+                    />
+                </div>
+                <div id="form_field">
+                    <label>Email : </label>
+                    <input type="email" name="email" required="required" 
+                    <% if(data.credentials != null) { %>
+                        value = <%- data.credentials.email -%>
+                        <% } %>
+                    />
+                    />
+                </div>
+                <div id="form_field">
+                    <label>Telephone : </label>
+                    <input type="tel" name="phone" required="required" />
+                </div>
+                <div id="form_field">
+                    <label>Message : </label>
+                    <textarea name="message" required="required"></textarea>
+                </div>
+                <input id="submit" type="submit" value="Send Message" />
+            </form>
+        </div>
+    </body>
+</html>

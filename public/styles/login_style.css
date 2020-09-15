@@ -1,0 +1,56 @@
+body{
+    background-image: url('/img/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 50px;
+}
+
+label, a{
+    font-size: 35px;
+}
+
+form{
+    margin-top: 60px;
+}
+
+.login_field{
+    margin-bottom: 20px;
+}
+
+.login_field input{
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    font-size: large;
+    font-weight: bold;
+    font-family: fantasy;
+    border:  solid black;
+    text-align: center;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:white;
+}
+
+form #login_button{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    font-family: fantasy;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: white;
+}
+
+#no_account{
+    color: whitesmoke;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-decoration: none;
+}
+
+#status_message{
+    font-size: 25px;
+    color: red;
+}

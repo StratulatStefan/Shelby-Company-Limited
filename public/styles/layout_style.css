@@ -1,0 +1,78 @@
+body{
+    font-family: fantasy;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.menu_navigator {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.menu_navigator a{
+    display: block;
+    padding: 12px;
+    color: white;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+
+.menu_navigator a:hover{
+    background-color:grey;
+}
+
+.menu_navigator img{
+    width: 200px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+.menu_navigator footer{
+    margin-top: 50px;
+}
+
+.menu_navigator #current_user{
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: lighter;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+@media screen and (max-height: 450px) {
+    .menu_navigator {padding-top: 15px;}
+    .menu_navigator a {font-size: 18px;}
+}
+
+.main_content{
+    margin-left: 192px;
+    height: 100%;
+    width: 80%;
+    top: 0;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.main_content h1, h2{
+    margin-top: 5px;
+    font-weight: lighter;
+}
+
+.main_content #title{
+    font-size: 60px;
+}
+
+#disconnect{
+    font-size: 15px;
+    color: sandybrown;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}

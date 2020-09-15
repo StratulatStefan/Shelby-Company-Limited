@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <link rel="stylesheet" text="text/css" href="/styles/shopping_styles.css" />
+    </head>
+    <body>
+        <h1>Shop</h1>
+        <a id="viewcart" href="viewcart">Check Shopping Cart</a>
+        <nav>
+            <div class="navigator">
+                <a onclick="getElements('tshirt')">T Shirts | </a>
+                <a onclick="getElements('hoodie')">Hoddies | </a>
+                <a onclick="getElements('mug')">Mugs | </a>
+                <a onclick="getElements('backpack')">Backpacks | </a>
+                <a onclick="getElements('cap')">Cap |</a>
+                <a onclick="getElements('art')">Art | </a>
+                <a onclick="getElements('drink')">Drink </a>
+            </div>
+
+            <div class="cart"></div>
+        </nav>
+    </body>
+    <script>
+        var jsonCharacters = null;
+        function getElements(category){
+            var xhttp = new XMLHttpRequest()
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    jsonCharacters = JSON.parse(this.responseText);
+                    updateLayout(jsonCharacters);
+                }
+            };
+            xhttp.open("GET", category, true);
+            xhttp.send();
+        }
+        
+        var content = document.getElementsByClassName("cart")[0]
+        function updateLayout(items){
+            document.getElementById("viewcart").style.visibility = "visible"
+            content.innerHTML = ''
+            i = 0;
+            items.forEach(item =>{
+                let newitem = document.createElement("div");
+                newitem.style.marginBottom = "50px";
+                newitem.style.gridColumn = (i++) % 3 + 1 
+
+                let name = document.createElement("h2")
+                name.appendChild(document.createTextNode(item.nume))
+
+                let pret = document.createElement("h3")
+                pret.appendChild(document.createTextNode(item.pret + " lei"))
+
+                let imagine = document.createElement("img")
+                imagine.src = item.imagine;
+
+                let label = document.createElement("label")
+                label.style.fontSize = "25px"
+                label.appendChild(document.createTextNode("Cantitate : "))
+
+                let cantitate = document.createElement("input")
+                cantitate.type = "text";
+                cantitate.max = 10;
+
+                let buy = document.createElement("button")
+                buy.onclick = () => {
+                    console.log(item)
+                    console.log(cantitate.value)
+                    $.ajax({
+                        type : "POST",
+                        url  : "add_to_cart",
+                        data : {product : item, quantity : cantitate.value}
+                    }).done(msg => {
+                        console.log("Add to cart request sent!")
+                    })
+                }
+                buy.appendChild(document.createTextNode("Add to cart"))
+
+
+                newitem.appendChild(imagine);
+                newitem.appendChild(name);
+                newitem.appendChild(pret);
+                newitem.appendChild(label)
+                newitem.appendChild(cantitate);
+                newitem.appendChild(document.createElement("br"))
+                newitem.appendChild(buy)
+                content.appendChild(newitem);
+            })
+        } 
+
+    </script>
+</html>

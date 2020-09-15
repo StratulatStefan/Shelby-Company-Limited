@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <link rel="stylesheet" text="text/css" href="/styles/characters_style.css" />
+    </head>
+    <body>
+        <h1>Characters</h1>
+        <nav>
+            <div class="navigator">
+                <a onclick="updateContent('thomas')"> Thomas Shelby | </a>
+                <a onclick="updateContent('grace')">Grace Shelby | </a>
+                <a onclick="updateContent('polly')">Polly Gray | </a>
+                <a onclick="updateContent('arthur')">Arthur Shelby | </a>
+                <a onclick="updateContent('john')">John Shelby |</a>
+                <a onclick="updateContent('ada')">Ada Shelby | </a>
+                <a onclick="updateContent('michael')">Michael Gray </a>
+                <br/> <br/>
+                <a onclick="updateContent('alfie')">Alfie Solomons | </a>
+                <a onclick="updateContent('campbell')">Major Campbell | </a>
+                <a onclick="updateContent('mosley')">Oswland Mosley | </a>
+                <a onclick="updateContent('luca')">Luca Changretta </a>
+            </div>
+        </nav>
+        <div id="content">
+            <h1 id="content_name"></h1>
+            <h3 id="content_text"></h3>
+            <img id="content_image1" />
+            <img id="content_image2" />
+            <img id="content_image3" />
+         </div>
+    </body>
+    <script>
+        var jsonCharacters = null;
+        var xhttp = new XMLHttpRequest()
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                jsonCharacters = JSON.parse(this.responseText);
+            }
+        };
+        xhttp.open("GET", "characters.json", true);
+        xhttp.send();
+
+        function updateContent(character){
+            let image_content1 = document.getElementById("content_image1");
+            let image_content2 = document.getElementById("content_image2");
+            let image_content3 = document.getElementById("content_image3");
+            let text_content = document.getElementById("content_text");
+            let name_content = document.getElementById("content_name");
+            let jsonData = getCharacterRecord(character)
+            console.log(jsonData)
+
+            text_content.innerHTML = "\"" + jsonData.quote + "\" - " + jsonData.full_name
+            name_content.innerHTML = jsonData.full_name
+            var elem = document.createElement("img");
+            image_content1.src = jsonData.image_src1
+            image_content2.src = jsonData.image_src2
+            image_content3.src = jsonData.image_src3
+            image_content1.style.visibility = "visible";
+            image_content2.style.visibility = "visible";
+            image_content3.style.visibility = "visible";
+        }
+
+        function getCharacterRecord(character){
+            for(let idx in jsonCharacters){
+                if(jsonCharacters[idx].character === character){
+                    return jsonCharacters[idx];
+                }
+            }
+            return null;
+        }
+    </script>
+</html>

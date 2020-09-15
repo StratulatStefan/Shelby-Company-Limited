@@ -1,0 +1,90 @@
+[
+    {
+        "character" : "thomas",
+        "full_name" : "Thomas Shelby",
+        "image_src1" : "https://vignette.wikia.nocookie.net/peaky-blinders/images/8/8e/Tommys3.jpg/revision/latest?cb=20190715140230",
+        "image_src2" : "https://i.pinimg.com/originals/e5/dd/22/e5dd22b4fdc47ab2e4a3e821d536353b.jpg",
+        "image_src3" : "https://a.wattpad.com/cover/195632874-288-k383358.jpg",
+        "quote" : "The one minute. The soldier’s minute. In a battle, that’s all you get. One minute of everything at once. And anything before is nothing. Everything after, nothing. Nothing in comparison to that one minute."
+    },
+    {
+        "character" : "arthur",
+        "full_name" : "Arthur Shelby",
+        "image_src1" : "https://vignette.wikia.nocookie.net/peaky-blinders/images/5/5a/Arthusr4.jpg/revision/latest?cb=20190715140036",
+        "image_src2" : "https://pbs.twimg.com/media/DpJOxU4WsAEBEV9.jpg",
+        "image_src3" : "https://i.pinimg.com/originals/dd/a4/b3/dda4b3a8f12f6cf4d81e87b8eca8e11c.jpg",
+        "quote" : "This place is under new management...by order of the Peaky Blinders!"
+    },
+    {
+        "character" : "john",
+        "full_name" : "John Shelby",
+        "image_src1" : "https://vignette.wikia.nocookie.net/peaky-blinders/images/0/0b/Johns3.jpg/revision/latest?cb=20190715140143",
+        "image_src2" : "https://i.pinimg.com/originals/cd/a4/de/cda4de5546d3c4c188d4fec6a5ecbab1.jpg",
+        "image_src3" : "https://i2-prod.birminghammail.co.uk/incoming/article8128346.ece/ALTERNATES/s1200c/Joe-Cole-plays-John-Shelby-in-Peaky-Blinders.jpg",
+        "quote" : "I used to put you in a shoebox and kick you down Watery Lane!"
+    },
+    {
+        "character" : "grace",
+        "full_name" : "Grace Shelby",
+        "image_src1" : "https://i.pinimg.com/originals/54/ff/fb/54fffb90f033af424455f9a55ca9e9b7.jpg",
+        "image_src2" : "https://pbs.twimg.com/media/DVYC5PxW4AAAVOf.jpg",
+        "image_src3" : "https://lh3.googleusercontent.com/proxy/RltSfe_CdtIecZ3zgn4jzxNOW4JjX1Q196EP_VroxFDqexexHVC9X66_UFwGL0gfQhrmewUAJJx6doYG0uKRq8LY_guxgZIhDHUPvMiHJlmu7OgtUnCt0A2Y8pdUKteFSw",
+        "quote" : "May you be in heaven in a ful half hour before the devil knows you're dead!"
+    },
+    {
+        "character" : "polly",
+        "full_name" : "Polly Gray",
+        "image_src1" : "https://i.pinimg.com/originals/2e/0c/45/2e0c45e7319bab71973d226195fa1422.jpg",
+        "image_src2" : "https://cdn.images.express.co.uk/img/dynamic/20/590x/secondary/Peaky-Blinders-season-5-Polly-Gray-star-on-violence-2000511.jpg?r=1565363609679",
+        "image_src3" : "https://data.whicdn.com/images/336532368/original.jpg",
+        "quote" : "You have your mother's common sense but your father's devilment. I see them fighting. Let your mother win!"
+    },
+    {
+        "character" : "ada",
+        "full_name" : "Ada Shelby",
+        "image_src1" : "https://images-na.ssl-images-amazon.com/images/I/51NGB9Q9dmL._AC_.jpg",
+        "image_src2" : "https://vignette.wikia.nocookie.net/peaky-blinders/images/e/e1/ThomasAdaFuneral.jpg/revision/latest?cb=20160601122931",
+        "image_src3" : "https://i.imgur.com/vwdxQoH.jpg",
+        "quote" : "Never thought my high-fucking-heels from Paris would be stepping through the horse shit of Small Heath ever again."
+    },
+    {
+        "character" : "michael",
+        "full_name" : "Michael Gray",
+        "image_src1" : "https://vignette.wikia.nocookie.net/peaky-blinders/images/8/8c/Michael3.jpg/revision/latest?cb=20171102223954",
+        "image_src2" : "https://cdn.images.express.co.uk/img/dynamic/20/750x445/1219682.jpg",
+        "image_src3" : "https://screenfiction.org/content/image/0/30/396/e2b5327f-full.webp",
+        "quote" : "I'm not a fucking kid anymore!"
+    },
+    {
+        "character" : "alfie",
+        "full_name" : "Alfie Solomons",
+        "image_src1" : "https://i.pinimg.com/originals/b0/ef/5a/b0ef5a1e710fe8bc6b6037dae2ac3029.jpg",
+        "image_src2" : "https://fsa.zobj.net/crop.php?r=5wSsAxvOSYzfkxpcaJjyZZNjWZn5_vJAnE24w8YwDN8rXuUouXZryqdc86sfUQG6u_xfO4Z7g2sx2lHCodyF4kFrliHUqm3rgoRzFcvS0u0JjKBfaQjKxkm41kTb8Es0dYw9vRh7f_tQ1D3U",
+        "image_src3" : "https://i.ytimg.com/vi/Rk78O1YMJlc/maxresdefault.jpg",
+        "quote" : "Intelligence is a very valuable thing, innit, my friend? And usually it comes far to fucking late."
+    },
+    {
+        "character" : "campbell",
+        "full_name" : "Major Campbell",
+        "image_src1" : "https://www.thesun.co.uk/wp-content/uploads/2019/09/4119532-high_res-peaky-blindersjpg-JS31804733.jpg",
+        "image_src2" : "https://vignette.wikia.nocookie.net/peaky-blinders/images/8/81/Ep1_2_c.jpg/revision/latest?cb=20180118113400",
+        "image_src3" : "https://images-na.ssl-images-amazon.com/images/I/41BhnVajtZL._AC_.jpg",
+        "quote" : "In all the world, the only thing that interests me is the truth."
+    },
+    {
+        "character" : "mosley",
+        "full_name" : "Oswland Mosley",
+        "image_src1" : "https://vignette.wikia.nocookie.net/peaky-blinders/images/c/c3/Sam-claflin-oswald.jpg/revision/latest?cb=20190715111454",
+        "image_src2" : "https://i1.wp.com/metro.co.uk/wp-content/uploads/2019/09/PRI_84906060.jpg?quality=90&strip=all&zoom=1&resize=540%2C809&ssl=1",
+        "image_src3" : "https://d.newsweek.com/en/full/1532973/peaky-blinders-season-5-oswald-mosley.jpg?w=1600&h=1600&q=88&f=64ee079828158d1519a52bccd8273a29",
+        "quote" : "Maybe if we have met before, your wife and I could even renew our acquaintance. I am invited to stay the night, yes?"
+    },
+    {
+        "character" : "luca",
+        "full_name" : "Luca Changretta",
+        "image_src1" : "https://i.pinimg.com/originals/34/fd/e9/34fde92ecc2ef75870a55e0440863917.jpg",
+        "image_src2" : "https://images-na.ssl-images-amazon.com/images/I/51rhsxBAIQL._AC_.jpg",
+        "image_src3" : "https://pbs.twimg.com/profile_images/1191111310920048640/5ndPZ7XU_400x400.jpg",
+        "quote" : "These days, back in the old country, a lot of the, er, you know, the Jewish people, they, er..."
+    }
+]

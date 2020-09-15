@@ -1,0 +1,33 @@
+{
+  "name": "peakyblinders",
+  "version": "1.0.0",
+  "description": "This project represents my final homework for the Web Programming Course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HDR-Organization/tema-de-casa-StratulatStefan.git"
+  },
+  "keywords": [
+    "peakyblinders"
+  ],
+  "author": "Stratulat Stefan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/HDR-Organization/tema-de-casa-StratulatStefan/issues"
+  },
+  "homepage": "https://github.com/HDR-Organization/tema-de-casa-StratulatStefan#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.6",
+    "request": "^2.88.2"
+  }
+}
