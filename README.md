@@ -8,3 +8,5 @@ tema-de-casa-StratulatStefan created by GitHub Classroom
 * [X] JavaScript - minim 30 linii de cod și trei funcții
 * [X] AJAX + transmiterea datelor în format JSON sau XML
 * [X] NodeJS - minim 30 linii de cod și cel puțin 3 fișiere care să conțină cod JavaScript (server-side)
+
+## Nu uita sa adaugi dependintele pentru node.js (folderul node-modules)
